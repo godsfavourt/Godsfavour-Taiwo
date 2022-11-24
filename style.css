@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+body {
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Minimalist-Background-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: 2700px 1600px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Adamina', 'serif';
+    font-weight: 300;
+    font-size: 18px;
+    scroll-behavior: smooth!important;
+    overflow-x: hidden;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    text-transform: uppercase; 
+    margin-bottom: 25px; 
+    font-size: 1.125rem; 
+    line-height: 1.75rem;
+}
+
+.nav-head {
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Minimalist-Background-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: 2700px 1600px;
+    color: rgb(0, 0, 0);
+    font-family: 'Adamina', 'serif';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-left: 6.38vw;
+    padding-right: 6.38vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-link {
+    font-family: 'Adamina', 'serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.link-container {
+    display: flex;
+    gap: 25px;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+.front-pg { 
+    padding-top: 180px;
+    padding-bottom: 128px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 24px;
+
+    padding-inline: 4.38vw;
+    gap: 30px;
+}
+
+.hero {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    line-height: 24px;
+
+    padding-inline: 4.38vw;
+}
+
+.foot {
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-inline: 1.38vw;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Adamina', 'serif';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+@media (max-width: 1200px) {
+    .hidden-in-mobile {
+        display: none;
+    }
+}
